@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:background="@android:color/holo_blue_bright">
+
+    <Button
+        android:text="Toast Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/toast"
+        android:textSize="24sp"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="Alert Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/alert"
+        android:textSize="24sp"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="Date Picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/date"
+        android:textSize="24sp"
+        android:background="@android:color/holo_red_light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/dateText"
+        android:textSize="24sp"
+        android:background="@drawable/border"
+        android:gravity="center"/>
+
+    <Button
+        android:text="Popup Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/menu"
+        android:textSize="24sp"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="Popup Window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/window"
+        android:textSize="24sp"
+        android:background="@android:color/holo_red_light"/>
+
+    <Button
+        android:text="Dialog Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/fragment"
+        android:textSize="24sp"
+        android:background="@android:color/holo_red_light"/>
+
+</LinearLayout>
